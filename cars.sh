@@ -13,7 +13,7 @@ do
 	case "$choice" in
 		"1") echo "Year"; read year; echo "make"; read make; echo "Model"; read model; 
 			str="$year:$make:$model"; 
-			echo $str >> My_old_cars;;
+			echo "$str" >> My_old_cars;;
 		"2") sort My_old_cars;;
 		"3")echo "Goodbye"; quit="yes";;
 	esac
