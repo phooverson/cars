@@ -2,9 +2,9 @@ This repo contains a bash script named “cars.sh” that will help a user maint
  
 ### Cars.sh
 ## The user will be presented with a menu of three options:
-- The user can add a car
-- The user can desplay a list of all the cars
-- The user can quit from the program
+> The user can add a car
+> The user can desplay a list of all the cars
+> The user can quit from the program
 
 1. If the user choices to add a car
 * input year, make, model
